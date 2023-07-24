@@ -18,10 +18,9 @@
   </template>
   
   <script>
-import { useRoute, useRouter } from 'vue-router';
 
   export default {
-
+    name: "LoginForm",
     data() {
       return {
         username: '',
@@ -45,6 +44,7 @@ import { useRoute, useRouter } from 'vue-router';
       }
     }
   };
+  
   </script>
   
   <style>

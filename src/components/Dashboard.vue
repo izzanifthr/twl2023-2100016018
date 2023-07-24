@@ -1,5 +1,6 @@
 <template>
-
+  id = admin
+  password = password
     <div class="container">
       <h1>To-Do List</h1>
       <input type="text" v-model="newTask" placeholder="Add a new task">
@@ -41,6 +42,7 @@
   
   <script>
   export default {
+    name: "DashboardForm",
     data() {
       return {
         newTask: '',
